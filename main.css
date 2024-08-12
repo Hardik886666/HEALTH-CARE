@@ -1,0 +1,657 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-image: url(./background-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+
+}
+
+.left {
+    width: 50%;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.right {
+    color: black;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ul {
+    padding: 10px 12px;
+}
+
+li {
+    float: left;
+    padding-right: 50px;
+}
+
+li a:hover {
+    border-bottom: 3px solid blueviolet;
+}
+
+.col {
+    color: black;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.con-left {
+    width: 50%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.con-para {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.purple {
+    font-family: "Open Sans", sans-serif;
+    background-color: blueviolet;
+    padding: 10px 12px;
+    border: none;
+    width: 20%;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.purple:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.erros {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -20px;
+}
+
+.left-erros {
+    font-size: 25px;
+    background-color: blueviolet;
+    padding-top: 7px;
+    border-radius: 50%;
+    height: 40px;
+    color: white;
+    width: 40px;
+
+}
+
+.right-erros {
+    font-size: 25px;
+    background-color: blueviolet;
+    padding-top: 7px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.left-erros:hover{
+    background-color: white;
+    color: blueviolet;
+
+}
+.right-erros:hover{
+    background-color: white;
+    color: blueviolet;
+
+}
+
+.sec-a {
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sec-b {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-left {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.img-2 {
+    width: 50%;
+}
+
+.img-right {
+    width: 50%;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.left-one {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.line-one {
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.pur {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.left-two {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.line-two {
+    width: 15%;
+    height: 1px;
+    background-color: black;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.left-three {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.line-three {
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.blue {
+    background-color: rgb(94, 94, 210);
+    width: 10%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+.blue:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.sec-c {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.fever {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cough {
+    width: 60%;
+    height: 300px;
+}
+
+.content-left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.pad {
+    padding-top: 10px;
+}
+
+.blue-two {
+    background-color: rgb(94, 94, 210);
+    width: 27%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.blue-two:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.sec-d {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-top: 100px;
+
+}
+
+.sec-left {
+    width: 20%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    color: white;
+    font-size: 50px;
+}
+
+.sec-right {
+    width: 80%;
+    font-size: 25px;
+    background-image: url(./girl.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    color: white;
+    background-size: cover;
+}
+
+.wid {
+    width: 60%;
+}
+.sec-e{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.card{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(243, 239, 239);
+    align-items: center;
+}
+.card-body{
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: -20px;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.photo{
+    height: 300px;
+    width: 90%;
+
+}
+.button-two {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.blue-three {
+    background-color: rgb(94, 94, 210);
+    width: 10%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+.blue-three:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.sign {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -20px;
+    margin-top: 50px;
+}
+
+.left-sign {
+    font-size: 25px;
+    background-color: rgb(241, 239, 239);
+    padding-top: 7px;
+    border-radius: 50%;
+    height: 40px;
+    color: black;
+    width: 40px;
+
+}
+
+.right-sign {
+    font-size: 25px;
+    background-color: rgb(241, 239, 239);
+    padding-top: 7px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    color: black;
+}
+.left-sign:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.right-sign:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.sec-f{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.email{
+    padding: 10px 500px 10px 10px;
+    margin-top: 50px;
+    border: 1px solid blue;
+   
+}
+
+.sub-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.sub {
+    background-color: rgb(5, 5, 84);
+    width: 15%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+.sub:hover{
+    color: rgb(5, 5, 84);
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(5, 5, 84);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.para{
+    margin-top: 10px;
+}
+.foot-one{
+    width: 20%;
+}
+.foot-two{
+    width: 20%;
+   
+}
+.foot-three{
+    width: 20%;
+   
+
+}
+.foot-four{
+    width: 20%;
+   
+}
+.mpas{
+    height: 100px;
+}
+.copy{
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    width: 50%;
+    display: flex;
+}
+@media (max-width:1024px) {
+    .bg{
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .purple{
+        width: 30%;
+    }
+
+    .img-right{
+        width: 60%;
+    }
+    .cough{
+        width: 80%;
+    }
+    .blue-two{
+        width: 35%;
+    }
+    .con-left{
+        padding-left: 65px;
+        width: 60%;
+    }
+    .email{
+        padding-right: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg{
+        width: 100%;
+      background-attachment: fixed;
+    }
+
+    .left-three{
+        justify-content: center;
+    }
+    .left-two{
+        justify-content: center;
+    }
+    .left-one{
+        justify-content: center;
+    }
+    .text-left{
+        padding-right: 10px;
+    }
+
+    .img-right{
+        width: 80%;
+    }
+    .blue{
+        width: 20%;
+    }
+    .cough {
+        width: 100%;
+    }
+
+    .fever{
+        width: 50%;
+        justify-content: left;
+    }
+    .content-left{
+        width: 45%;
+    }
+    .wid{
+        width: 80%;
+    }
+    .blue-three{
+        width: 25%;
+    }
+    .card{
+        width: 60%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+
+    .email{
+        padding-right: 100px;
+    }
+    .sec-c{
+        flex-direction: column;
+    }
+    .sec-c{
+        align-items: center;
+    }
+    .fever{
+        width: 100%;
+    }
+    .content-left{
+        width: 95%;
+    }
+    .img-right{
+        width: 80%;
+        height: 150px;
+    }
+    .font{
+        font-size: 15px;
+    }
+    .left-one{
+        margin-top: 5px;
+    }
+    .left-two{
+        margin-top: 5px;
+    }
+    .left-three{
+        margin-top: 5px;
+    }
+    .pur{
+        color: blueviolet;
+        font-size: 15px;
+    }
+    .text-left {
+        justify-content: right;
+    }
+    .blue{
+        width: 27%;
+    }
+    .cough{
+        height: 200px;
+        width: 70%;
+    }
+    .fever{
+        justify-content: center;
+    }
+    .sec-right{
+        font-size: 15px;
+    }
+    .blue-two{
+        width: 35%;
+    }
+}
+
+@media (max-width:400px) {
+    .con-left{
+        width: 95%;
+        padding-left:  10px;;
+    }
+    li{
+        padding-right: 20px;
+    }
+    .sec-right{
+        padding: 50px 10px 50px;
+    }
+    .blue-two{
+        width: 45%;
+    }
+    .card {
+        width: 80%;
+    }
+
+    .foot-one {
+        width: 50%;
+    }
+    .foot-two{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .foot-three{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .foot-four{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .sub{
+        width: 30%;
+    }
+}
